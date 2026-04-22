@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.github.bbottema</groupId>
+		<artifactId>standard-project-parent</artifactId>
+		<version>1.0.45</version>
+	</parent>
+
+	<artifactId>rtf-to-html</artifactId>
+	<packaging>jar</packaging>
+	<name>rtf-to-html</name>
+	<version>1.1.1</version>
+	<description>RTF to HTML conversion done right</description>
+	<url>http:///github.com/bbottema/rtf-to-html</url>
+	<inceptionYear>2019</inceptionYear>
+
+	<scm>
+		<connection>scm:git:git://github.com/bbottema/rtf-to-html.git</connection>
+		<developerConnection>scm:git:git@github.com:bbottema/rtf-to-html.git</developerConnection>
+		<url>https://github.com/bbottema/rtf-to-html</url>
+	</scm>
+
+	<contributors>
+		<contributor>
+			<name>Konstantin</name>
+			<email>fadeevk@yandex.ru</email>
+			<url>https://github.com/fadeyev</url>
+			<roles>
+				<role>developer</role>
+			</roles>
+		</contributor>
+	</contributors>
+
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/bbottema/rtf-to-html/issues</url>
+	</issueManagement>
+
+	<dependencies>
+		<dependency><!-- Gives us @NotNull and @Nullable -->
+			<groupId>org.jetbrains</groupId>
+			<artifactId>annotations</artifactId>
+			<version>16.0.2</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+</project>
